@@ -2,37 +2,57 @@
 
 I'm a Service Desk Analyst with 20+ years of experience supporting users in enterprise environments and am currently transitioning into Cloud Engineering.
 
-Through hands-on projects and continuous learning, I'm building practical experience with AWS, Linux, Docker, CI/CD pipelines, infrastructure automation, monitoring, and cloud platform operations.
+Through hands-on projects and continuous learning, I'm building practical experience with AWS, Linux, Docker, CI/CD pipelines, cloud automation, monitoring, and cloud platform operations.
 
-## Current Focus
+## 🌐 Portfolio
 
-* Kubernetes
+🚀 Cloud Engineer Portfolio
+
+https://d165tmo5p8pk09.cloudfront.net
+
+A personal cloud portfolio website hosted on AWS using Amazon S3 and Amazon CloudFront.
+
+## 🎯 Current Focus
+
 * Terraform
+* Infrastructure as Code (IaC)
+* Kubernetes Fundamentals
 * Site Reliability Engineering (SRE)
-* Cloud Platform Operations
+* Cloud Security
+* Monitoring and Alerting
 
-## Technical Skills
+## ☁️ Cloud & DevOps Skills
 
-### Cloud
+### AWS
 
-* AWS (EC2, S3, Lambda, CloudFront, IAM, CloudWatch)
-* Infrastructure Automation
-* Cloud Monitoring & Logging
+* EC2
+* S3
+* Lambda
+* CloudFront
+* IAM
+* CloudWatch
+* DynamoDB
+* API Gateway
+* Amazon Polly
+* Amazon Rekognition
+* Amazon Transcribe
+* Amazon Translate
+* Amazon Bedrock
 
-### DevOps
+### DevOps & Automation
 
-* Docker
-* Git & GitHub
+* Git
+* GitHub
 * GitHub Actions
 * CI/CD Pipelines
-* Python Fundamentals
+* Docker
 
 ### Operating Systems
 
 * Linux
 * Windows
 
-### Support & Administration
+### IT Operations
 
 * Active Directory
 * Microsoft 365
@@ -40,47 +60,59 @@ Through hands-on projects and continuous learning, I'm building practical experi
 * Incident Management
 * User Access Management
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### CI/CD Deployment Pipeline
+### Cloud Engineer Portfolio
+
+🔗 https://github.com/mandyreed223/cloud-engineer-portfolio
+
+Built and deployed a personal cloud portfolio website using HTML, CSS, Amazon S3 Static Website Hosting, and Amazon CloudFront.
+
+### Prompt Deployment Pipeline
 
 🔗 https://github.com/mandyreed223/prompt-deployment-pipeline
 
-Automated deployment workflows using GitHub Actions, AWS Bedrock, and Amazon S3.
+Built a CI/CD-style workflow using GitHub, Amazon S3, and Amazon Bedrock.
 
-### Multilingual Audio Processing Pipeline
+### Multilingual Audio Pipeline
 
 🔗 https://github.com/mandyreed223/multilingual-audio-pipeline
 
-Built an automated AWS workflow using Amazon Transcribe, Translate, Polly, Lambda, S3, and CloudWatch logging to process multilingual audio content.
+Created an AWS workflow using Amazon Transcribe, Translate, Polly, Lambda, S3, and CloudWatch logging.
 
-### Image Labeling Pipeline
+### Rekognition Image Labeling Pipeline
 
 🔗 https://github.com/mandyreed223/rekognition-image-labeling-pipeline
 
-Developed a serverless image analysis solution using Amazon Rekognition, Lambda, DynamoDB, GitHub Actions, and CloudWatch monitoring.
+Built an image-processing workflow using Amazon Rekognition, Lambda, DynamoDB, GitHub Actions, and CloudWatch.
 
-### Text-to-Speech Pipeline
+### Polly Text-to-Speech Pipeline
 
 🔗 https://github.com/mandyreed223/polly_text_to_speech_pipeline
 
-Built a serverless text-to-speech solution using Amazon Polly, Lambda, API Gateway, S3, and CloudWatch monitoring.
+Created a serverless text-to-speech solution using Amazon Polly, Lambda, API Gateway, S3, and CloudWatch.
 
-### Static Website Hosting Project
+### Required Files Checker
 
-🔗 https://github.com/mandyreed223/static_website_pipeline_project
+🔗 https://github.com/mandyreed223/file_checker_project
 
-Implemented static website hosting using Amazon S3, CloudFront, and CodePipeline.
+Built a GitHub Actions workflow that validates required repository files and sends logs to Amazon CloudWatch.
 
-### Containerization Project
+## 📝 Technical Writing
 
-📖 Medium Article:
-https://medium.com/@mandymreed/it-worked-on-my-machine-until-it-didnt-3d2df233c995
+📖 Medium
 
-Built and managed Docker containers in Linux environments while learning containerization concepts, networking, and deployment workflows.
+https://medium.com/@mandymreed
 
-## Connect With Me
+I document projects, lessons learned, troubleshooting experiences, and cloud engineering concepts through technical blog posts.
 
-💼 LinkedIn: https://www.linkedin.com/in/mandymreed/
+## 📫 Connect With Me
 
-💻 GitHub: https://github.com/mandyreed223
+💼 LinkedIn
+
+https://www.linkedin.com/in/mandymreed/
+
+💻 GitHub
+
+https://github.com/mandyreed223
+
