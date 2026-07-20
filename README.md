@@ -1,6 +1,6 @@
 # Hi, I'm Mandy Reed 👋
 
-I'm a Service Desk Analyst with 20+ years of experience supporting users in enterprise environments and am currently transitioning into Cloud Engineering.
+I'm a Service Desk Analyst with 18 years of experience supporting users in enterprise environments and am currently transitioning into Cloud Engineering.
 
 Through hands-on projects and continuous learning, I'm building practical experience with AWS, Linux, Docker, CI/CD pipelines, cloud automation, monitoring, and cloud platform operations.
 
