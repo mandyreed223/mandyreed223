@@ -8,7 +8,7 @@ Through hands-on projects and continuous learning, I'm building practical experi
 
 🚀 Cloud Engineer Portfolio
 
-https://d165tmo5p8pk09.cloudfront.net
+https://mandyreed.com
 
 A personal cloud portfolio website hosted on AWS using Amazon S3 and Amazon CloudFront.
 
