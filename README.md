@@ -1,8 +1,8 @@
-# Hi, I'm Mandy Reed 👋
+  # Hi, I'm Mandy Reed 👋
 
-I'm a Service Desk Analyst with 18 years of IT experience supporting users in enterprise environments, and I'm expanding that experience into Cloud Engineering.
+I'm a Service Desk Analyst with 18 years of IT experience supporting users in enterprise environments, and I'm expanding that experience into Cloud Engineering and DevOps.
 
-Through hands-on projects and continuous learning, I'm building practical experience with AWS, Terraform, Infrastructure as Code, Linux, Docker, Jenkins, CI/CD pipelines, cloud automation, monitoring, and cloud platform operations.
+Through hands-on projects and continuous learning, I'm building practical experience with AWS, Terraform, Infrastructure as Code, Linux, Docker, container orchestration, Jenkins, CI/CD pipelines, cloud automation, monitoring, and cloud platform operations.
 
 I enjoy understanding how the pieces connect, troubleshooting what happens when they don't, and documenting what I learn along the way. ☁️🛠️
 
@@ -52,6 +52,9 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * CI/CD Pipelines
 * Docker
 * Docker Compose
+* Docker Swarm
+* Docker Stack
+* Container Orchestration
 * Jenkins
 
 ### Operating Systems
@@ -68,6 +71,16 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * User Access Management
 
 ## 🚀 Featured Projects
+
+### 🐳 Docker Swarm on AWS
+
+🔗 [View Repository](https://github.com/mandyreed223/docker-swarm-aws-lab)
+
+Built a three-node Docker Swarm across AWS EC2 instances to practice multi-node container orchestration, replicated and global services, scaling, self-healing, Docker Stack, overlay networking, and routing mesh.
+
+Tested cluster resiliency by intentionally removing containers and draining a worker node to validate desired-state recovery, task rescheduling, and traffic routing across the Swarm.
+
+📖 [Read the Project Story on Medium](https://medium.com/@mandymreed/i-built-a-docker-swarm-then-i-started-killing-containers-14bfd9fb54ae)
 
 ### 🏗️ Jenkins on AWS with Terraform
 
