@@ -1,8 +1,8 @@
-  # Hi, I'm Mandy Reed 👋
+# Hi, I'm Mandy Reed 👋
 
 I'm a Service Desk Analyst with 18 years of IT experience supporting users in enterprise environments, and I'm expanding that experience into Cloud Engineering and DevOps.
 
-Through hands-on projects and continuous learning, I'm building practical experience with AWS, Terraform, Infrastructure as Code, Linux, Docker, container orchestration, Jenkins, CI/CD pipelines, cloud automation, monitoring, and cloud platform operations.
+Through hands-on projects and continuous learning, I'm building practical experience with AWS, Terraform, Infrastructure as Code, Linux, Docker, container orchestration, persistent storage, Jenkins, CI/CD pipelines, cloud automation, monitoring, and cloud platform operations.
 
 I enjoy understanding how the pieces connect, troubleshooting what happens when they don't, and documenting what I learn along the way. ☁️🛠️
 
@@ -28,6 +28,7 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 
 * EC2
 * S3
+* EFS
 * Lambda
 * CloudFront
 * Route 53
@@ -55,7 +56,18 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * Docker Swarm
 * Docker Stack
 * Container Orchestration
+* Docker Secrets
+* Overlay Networking
+* Persistent Volumes
 * Jenkins
+
+### Applications & Data
+
+* WordPress
+* MySQL
+* Shared File Storage
+* NFS
+* Persistent Application Data
 
 ### Operating Systems
 
@@ -72,6 +84,18 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 
 ## 🚀 Featured Projects
 
+### 🐳 WordPress + MySQL Docker Swarm on AWS
+
+🔗 [View Repository](https://github.com/mandyreed223/wordpress-docker-swarm-aws)
+
+Built a multi-service WordPress and MySQL application across a three-node Docker Swarm running on AWS EC2.
+
+Used Docker Stack, overlay networking, Docker Secrets, and Amazon EFS shared storage to explore multi-service orchestration, persistent application data, service communication, and resiliency.
+
+Tested recovery by removing a worker node and observing Swarm reschedule workloads, while troubleshooting Linux, Docker, networking, SSH, storage, and AWS infrastructure along the way.
+
+📖 [Read the Project Story on Medium](https://medium.com/@mandymreed/i-put-wordpress-on-docker-swarm-then-things-got-real-438cbb166861)
+
 ### 🐳 Docker Swarm on AWS
 
 🔗 [View Repository](https://github.com/mandyreed223/docker-swarm-aws-lab)
@@ -86,7 +110,9 @@ Tested cluster resiliency by intentionally removing containers and draining a wo
 
 🔗 [View Repository](https://github.com/mandyreed223/terraform-jenkins-aws)
 
-Deployed Jenkins on AWS using Terraform, progressing from a manual proof of concept to reusable Infrastructure as Code. Provisioned EC2, Security Groups, and private S3 artifact storage, automated Jenkins installation with User Data, and implemented an IAM Role and Instance Profile with least-privilege S3 permissions.
+Deployed Jenkins on AWS using Terraform, progressing from a manual proof of concept to reusable Infrastructure as Code.
+
+Provisioned EC2, Security Groups, and private S3 artifact storage, automated Jenkins installation with User Data, and implemented an IAM Role and Instance Profile with least-privilege S3 permissions.
 
 Validated temporary AWS credentials and tested artifact upload and download before safely destroying the Terraform-managed infrastructure.
 
@@ -94,7 +120,9 @@ Validated temporary AWS credentials and tested artifact upload and download befo
 
 🔗 [View Repository](https://github.com/mandyreed223/docker-jenkins-lab)
 
-Built and managed Jenkins in Docker while exploring container lifecycle, persistent storage, Docker Compose, and custom image creation. Tested data persistence by intentionally removing and recreating containers, then built a custom Jenkins image using a Dockerfile.
+Built and managed Jenkins in Docker while exploring container lifecycle, persistent storage, Docker Compose, and custom image creation.
+
+Tested data persistence by intentionally removing and recreating containers, then built a custom Jenkins image using a Dockerfile.
 
 ### 🌐 Cloud Engineering Portfolio
 
@@ -141,6 +169,14 @@ Built a GitHub Actions workflow that validates required repository files and sen
 I document hands-on projects, troubleshooting experiences, lessons learned, and the occasional **“why is THAT happening?”** moment. 😅
 
 My articles focus not only on what I built, but also on what went wrong, how I approached troubleshooting, and what I learned from the experience.
+
+Recent stories include:
+
+* 🐳 **I Put WordPress on Docker Swarm. Then Things Got Real.**
+* 🐳 **I Built a Docker Swarm. Then I Started Killing Containers.**
+* 🏗️ **Jenkins on AWS with Terraform**
+* 🐳 **Docker + Jenkins**
+* 🌐 **Building My AWS Cloud Engineering Portfolio**
 
 ## 📫 Connect With Me
 
