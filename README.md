@@ -52,17 +52,22 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * GitHub Actions
 * CI/CD Pipelines
 * Docker
+* Dockerfiles
 * Docker Compose
 * Docker Swarm
 * Docker Stack
 * Container Orchestration
 * Docker Secrets
+* Docker Networking
+* Docker Image Versioning
+* Container Troubleshooting
 * Overlay Networking
 * Persistent Volumes
 * Jenkins
 
 ### Applications & Data
 
+* Apache HTTP Server
 * WordPress
 * MySQL
 * Shared File Storage
@@ -124,6 +129,20 @@ Built and managed Jenkins in Docker while exploring container lifecycle, persist
 
 Tested data persistence by intentionally removing and recreating containers, then built a custom Jenkins image using a Dockerfile.
 
+### 🐳 Docker + Apache Web App Rebuild
+
+🔗 [View Repository](https://github.com/mandyreed223/docker-apache-webapp)
+
+Revisited and rebuilt one of my earliest Docker projects after gaining more hands-on experience with containers, networking, and troubleshooting.
+
+Used Dockerfiles and reusable images while practicing image versioning, layer caching, port mapping, Docker networking, container inspection, lifecycle management, and application validation.
+
+The rebuild turned an early Docker exercise into an opportunity to compare how I approached the same technology after gaining more hands-on experience.
+
+**Same project. Different engineer. 🐳**
+
+📖 [Read the Updated Project Story on Medium](https://medium.com/@mandymreed/it-worked-on-my-machine-until-it-didnt-3d2df233c995)
+
 ### 🌐 Cloud Engineering Portfolio
 
 🔗 [View Repository](https://github.com/mandyreed223/cloud-engineer-portfolio)
@@ -176,6 +195,7 @@ Recent stories include:
 * 🐳 **I Built a Docker Swarm. Then I Started Killing Containers.**
 * 🏗️ **Jenkins on AWS with Terraform**
 * 🐳 **Docker + Jenkins**
+* 🐳 **It Worked on My Machine... Until It Didn't: Revisited**
 * 🌐 **Building My AWS Cloud Engineering Portfolio**
 
 ## 📫 Connect With Me
