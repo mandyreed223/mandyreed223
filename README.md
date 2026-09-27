@@ -2,7 +2,7 @@
 
 I'm a Service Desk Analyst with 18 years of IT experience supporting users in enterprise environments, and I'm expanding that experience into Cloud Engineering and DevOps.
 
-Through hands-on projects and continuous learning, I'm building practical experience with AWS, Terraform, Infrastructure as Code, Linux, Docker, container orchestration, persistent storage, Jenkins, CI/CD pipelines, cloud automation, monitoring, and cloud platform operations.
+Through hands-on projects and continuous learning, I'm building practical experience with AWS, Terraform, Infrastructure as Code, Linux, Docker, Kubernetes, container orchestration, persistent storage, Jenkins, CI/CD pipelines, cloud automation, monitoring, and cloud platform operations.
 
 I enjoy understanding how the pieces connect, troubleshooting what happens when they don't, and documenting what I learn along the way. ☁️🛠️
 
@@ -17,10 +17,10 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 ## 🎯 Current Focus
 
 * Microsoft Azure
-* Kubernetes Fundamentals
 * Site Reliability Engineering (SRE)
 * Cloud Security
 * Monitoring and Alerting
+* Expanding Kubernetes beyond the fundamentals
 
 ## ☁️ Cloud & DevOps Skills
 
@@ -56,7 +56,6 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * Docker Compose
 * Docker Swarm
 * Docker Stack
-* Container Orchestration
 * Docker Secrets
 * Docker Networking
 * Docker Image Versioning
@@ -65,9 +64,29 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * Persistent Volumes
 * Jenkins
 
+### Kubernetes & Container Orchestration
+
+* Kubernetes
+* MicroK8s
+* kubectl
+* Pods
+* Deployments
+* ReplicaSets
+* Services
+* ClusterIP
+* Labels and Selectors
+* EndpointSlices
+* Declarative YAML
+* Scaling
+* Desired-State Reconciliation
+* Self-Healing Workloads
+* Rolling Updates
+* Kubernetes Troubleshooting
+
 ### Applications & Data
 
 * Apache HTTP Server
+* nginx
 * WordPress
 * MySQL
 * Shared File Storage
@@ -88,6 +107,18 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * User Access Management
 
 ## 🚀 Featured Projects
+
+### ☸️ Kubernetes Fundamentals
+
+🔗 [View Repository](https://github.com/mandyreed223/kubernetes-fundamentals)
+
+Built my first hands-on Kubernetes application using MicroK8s on Ubuntu in WSL2, progressing from a standalone nginx Pod to a declaratively managed application using Deployments, ReplicaSets, multiple Pods, and a ClusterIP Service.
+
+Practiced scaling, labels and selectors, EndpointSlices, rolling updates, and desired-state reconciliation while intentionally deleting a Pod to observe Kubernetes self-healing.
+
+Finished by moving the application into reusable YAML and troubleshooting an immutable Deployment selector while rebuilding and validating the environment declaratively.
+
+📖 [Read the Project Story on Medium](https://medium.com/@mandymreed/kubernetes-said-desired-state-i-said-prove-it-%EF%B8%8F-e8fbe1469ec3)
 
 ### 🐳 WordPress + MySQL Docker Swarm on AWS
 
@@ -191,6 +222,7 @@ My articles focus not only on what I built, but also on what went wrong, how I a
 
 Recent stories include:
 
+* ☸️ **Kubernetes Said Desired State. I Said Prove It.**
 * 🐳 **I Put WordPress on Docker Swarm. Then Things Got Real.**
 * 🐳 **I Built a Docker Swarm. Then I Started Killing Containers.**
 * 🏗️ **Jenkins on AWS with Terraform**
