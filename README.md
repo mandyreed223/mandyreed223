@@ -2,7 +2,7 @@
 
 I'm a Service Desk Analyst with 18 years of IT experience supporting users in enterprise environments, and I'm expanding that experience into Cloud Engineering and DevOps.
 
-Through hands-on projects and continuous learning, I'm building practical experience with AWS, Terraform, Infrastructure as Code, Linux, Docker, Kubernetes, container orchestration, persistent storage, Jenkins, CI/CD pipelines, cloud automation, monitoring, and cloud platform operations.
+Through hands-on projects and continuous learning, I'm building practical experience with AWS, Terraform, Infrastructure as Code, Linux, Docker, Kubernetes, container orchestration, multi-tier applications, persistent storage, Jenkins, CI/CD pipelines, cloud automation, monitoring, and cloud platform operations.
 
 I enjoy understanding how the pieces connect, troubleshooting what happens when they don't, and documenting what I learn along the way. ☁️🛠️
 
@@ -20,7 +20,7 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * Site Reliability Engineering (SRE)
 * Cloud Security
 * Monitoring and Alerting
-* Expanding Kubernetes beyond the fundamentals
+* Expanding Kubernetes into more advanced application architectures and cloud-hosted environments
 
 ## ☁️ Cloud & DevOps Skills
 
@@ -81,6 +81,10 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * Desired-State Reconciliation
 * Self-Healing Workloads
 * Rolling Updates
+* Multi-Tier Applications
+* Application-to-Database Communication
+* Persistent Application Data
+* Kubernetes Networking
 * Kubernetes Troubleshooting
 
 ### Applications & Data
@@ -107,6 +111,18 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * User Access Management
 
 ## 🚀 Featured Projects
+
+### ☸️ WordPress + MySQL Multi-Tier Application on Kubernetes
+
+🔗 [View Repository](https://github.com/mandyreed223/kubernetes-multitier-application)
+
+Built a multi-tier WordPress and MySQL application on Kubernetes, moving beyond individual Kubernetes resources to explore how application and database workloads communicate as part of a larger system.
+
+Worked with Deployments, Services, labels and selectors, persistent application data, Kubernetes networking, and application-to-database communication while troubleshooting the complete path between WordPress and MySQL.
+
+The project reinforced an important lesson: a Pod showing `Running` does not automatically mean the application is healthy. Troubleshooting required following the relationships between workloads, Services, configuration, storage, networking, database connectivity, and the application itself.
+
+📖 [Read the Project Story on Medium](https://medium.com/@mandymreed/i-put-wordpress-and-mysql-on-kubernetes-then-mysql-fought-back-%EF%B8%8F-05a6370e0926)
 
 ### ☸️ Kubernetes Fundamentals
 
@@ -222,6 +238,7 @@ My articles focus not only on what I built, but also on what went wrong, how I a
 
 Recent stories include:
 
+* ☸️ **I Put WordPress and MySQL on Kubernetes. Then MySQL Fought Back. ⚔️**
 * ☸️ **Kubernetes Said Desired State. I Said Prove It.**
 * 🐳 **I Put WordPress on Docker Swarm. Then Things Got Real.**
 * 🐳 **I Built a Docker Swarm. Then I Started Killing Containers.**
