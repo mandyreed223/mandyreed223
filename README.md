@@ -2,7 +2,7 @@
 
 I'm a Service Desk Analyst with 18 years of IT experience supporting users in enterprise environments, and I'm expanding that experience into Cloud Engineering and DevOps.
 
-Through hands-on projects and continuous learning, I'm building practical experience with AWS, Terraform, Infrastructure as Code, Linux, Docker, Kubernetes, container orchestration, multi-tier applications, persistent storage, Jenkins, CI/CD pipelines, cloud automation, monitoring, and cloud platform operations.
+Through hands-on projects and continuous learning, I'm building practical experience with AWS, Amazon EKS, Amazon ECR, Terraform, Infrastructure as Code, Linux, Docker, Kubernetes, container orchestration, multi-tier applications, persistent storage, autoscaling, monitoring, Jenkins, CI/CD pipelines, cloud automation, and cloud platform operations.
 
 I enjoy understanding how the pieces connect, troubleshooting what happens when they don't, and documenting what I learn along the way. ☁️🛠️
 
@@ -20,7 +20,9 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * Site Reliability Engineering (SRE)
 * Cloud Security
 * Monitoring and Alerting
-* Expanding Kubernetes into more advanced application architectures and cloud-hosted environments
+* Kubernetes Observability
+* Deployment Automation
+* Expanding Kubernetes beyond deployment into deeper operations, monitoring, and automation
 
 ## ☁️ Cloud & DevOps Skills
 
@@ -29,6 +31,10 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * EC2
 * S3
 * EFS
+* Amazon EKS
+* Amazon ECR
+* Amazon VPC
+* Elastic Load Balancing
 * Lambda
 * CloudFront
 * Route 53
@@ -63,24 +69,32 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * Overlay Networking
 * Persistent Volumes
 * Jenkins
+* AWS CLI
 
 ### Kubernetes & Container Orchestration
 
 * Kubernetes
+* Amazon EKS
 * MicroK8s
 * kubectl
+* eksctl
 * Pods
 * Deployments
 * ReplicaSets
 * Services
 * ClusterIP
+* LoadBalancer Services
 * Labels and Selectors
 * EndpointSlices
 * Declarative YAML
 * Scaling
+* Horizontal Pod Autoscaling (HPA)
+* Metrics Server
+* Resource Requests and Limits
 * Desired-State Reconciliation
 * Self-Healing Workloads
 * Rolling Updates
+* Managed Node Groups
 * Multi-Tier Applications
 * Application-to-Database Communication
 * Persistent Application Data
@@ -111,6 +125,24 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * User Access Management
 
 ## 🚀 Featured Projects
+
+### ☁️☸️ Amazon EKS Deployment
+
+🔗 [View Repository](https://github.com/mandyreed223/amazon-eks-deployment)
+
+**I put Kubernetes on AWS. Then I started deleting Pods. ☸️😈**
+
+Moved my Kubernetes learning from a local environment into AWS by building, deploying, scaling, monitoring, updating, and troubleshooting a containerized application on Amazon Elastic Kubernetes Service (EKS).
+
+Built a managed EKS cluster with private EC2 worker nodes across two Availability Zones, pushed versioned Docker images to Amazon ECR, and exposed the application through a Kubernetes LoadBalancer Service.
+
+Added resource requests and limits, Metrics Server, and Horizontal Pod Autoscaling, then generated CPU load to watch the application automatically scale from three Pods to four and return to three as demand decreased.
+
+Tested Kubernetes self-healing by deliberately deleting Pods, performed a rolling application update using a new ECR image version, and enabled EKS API and audit logging in Amazon CloudWatch.
+
+The project helped connect the complete path from local application code to Docker, Amazon ECR, Kubernetes workloads, AWS load balancing, autoscaling, compute, networking, and monitoring.
+
+📖 [Read the Project Story on Medium](https://medium.com/@mandymreed/i-put-kubernetes-on-aws-then-i-started-deleting-pods-%EF%B8%8F-6b5d9898773a)
 
 ### ☸️ WordPress + MySQL Multi-Tier Application on Kubernetes
 
@@ -238,6 +270,7 @@ My articles focus not only on what I built, but also on what went wrong, how I a
 
 Recent stories include:
 
+* ☁️☸️ **I Put Kubernetes on AWS. Then I Started Deleting Pods. ☸️😈**
 * ☸️ **I Put WordPress and MySQL on Kubernetes. Then MySQL Fought Back. ⚔️**
 * ☸️ **Kubernetes Said Desired State. I Said Prove It.**
 * 🐳 **I Put WordPress on Docker Swarm. Then Things Got Real.**
