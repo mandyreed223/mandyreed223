@@ -2,7 +2,7 @@
 
 I'm a Service Desk Analyst with 18 years of IT experience supporting users in enterprise environments, and I'm expanding that experience into Cloud Engineering and DevOps.
 
-Through hands-on projects and continuous learning, I'm building practical experience with AWS, Amazon EKS, Amazon ECR, Terraform, Infrastructure as Code, Linux, Docker, Kubernetes, container orchestration, multi-tier applications, persistent storage, autoscaling, monitoring, Jenkins, CI/CD pipelines, cloud automation, and cloud platform operations.
+Through hands-on projects and continuous learning, I'm building practical experience with AWS, Terraform, Infrastructure as Code, highly available cloud architectures, EC2 Auto Scaling, Application Load Balancing, Amazon EKS, Amazon ECR, Linux, Docker, Kubernetes, container orchestration, autoscaling, monitoring, CI/CD pipelines, cloud automation, and cloud platform operations.
 
 I enjoy understanding how the pieces connect, troubleshooting what happens when they don't, and documenting what I learn along the way. ☁️🛠️
 
@@ -18,22 +18,33 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 
 * Microsoft Azure
 * Site Reliability Engineering (SRE)
-* Cloud Security
 * Monitoring and Alerting
+* Cloud Security
 * Kubernetes Observability
 * Deployment Automation
-* Expanding Kubernetes beyond deployment into deeper operations, monitoring, and automation
+* Deeper Terraform Automation
+* Expanding AWS, Terraform, and Kubernetes skills through increasingly production-inspired architectures and operational troubleshooting
 
 ## ☁️ Cloud & DevOps Skills
 
 ### AWS
 
 * EC2
+* EC2 Auto Scaling
+* Launch Templates
+* Application Load Balancer
+* Target Groups
+* AWS Systems Manager
 * S3
 * EFS
 * Amazon EKS
 * Amazon ECR
 * Amazon VPC
+* Public and Private Subnets
+* NAT Gateway
+* Internet Gateway
+* Route Tables
+* Security Groups
 * Elastic Load Balancing
 * Lambda
 * CloudFront
@@ -53,6 +64,11 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 
 * Terraform
 * Infrastructure as Code (IaC)
+* Terraform Resource References
+* Terraform Remote State
+* S3 State Versioning
+* Terraform State Locking
+* EC2 Instance Refresh
 * Git
 * GitHub
 * GitHub Actions
@@ -125,6 +141,24 @@ My personal cloud engineering portfolio is hosted on AWS using Amazon S3, CloudF
 * User Access Management
 
 ## 🚀 Featured Projects
+
+### 🏗️ Terraform Auto Scaling Architecture on AWS
+
+🔗 [View Repository](https://github.com/mandyreed223/terraform-asg-deployment)
+
+**I built an Auto Scaling architecture with Terraform. Then one tiny space broke everything. 😅**
+
+Built a highly available AWS web architecture with Terraform using a custom VPC, public and private subnets across multiple Availability Zones, an internet-facing Application Load Balancer, and an Auto Scaling Group running EC2 instances in private subnets.
+
+Used a Launch Template to define EC2 configuration, AWS Systems Manager Session Manager for secure administration without inbound SSH, NAT for outbound connectivity, and Amazon S3 remote Terraform state with versioning and state locking.
+
+Validated load balancing and self-healing by deliberately terminating a healthy EC2 instance and watching the Auto Scaling Group restore desired capacity.
+
+During an application update, troubleshot failed Target Group health checks through the complete request path and discovered that a single leading space before the `#!/bin/bash` shebang prevented EC2 User Data from running correctly. Corrected the bootstrap script, created a new Launch Template version, and used EC2 Instance Refresh to roll the fixed configuration across the fleet.
+
+The project strengthened my understanding of Terraform resource linkage by following values between resources: subnet IDs feed the load balancer and Auto Scaling Group, the Target Group connects the ALB to the fleet, the Launch Template defines the EC2 instances, and the Auto Scaling Group turns those definitions into running infrastructure.
+
+📖 [Read the Project Story on Medium](https://medium.com/@mandymreed/%EF%B8%8F-i-built-an-auto-scaling-architecture-with-terraform-then-one-tiny-space-broke-everything-c1f29147dcd5)
 
 ### ☁️☸️ Amazon EKS Deployment
 
@@ -270,6 +304,7 @@ My articles focus not only on what I built, but also on what went wrong, how I a
 
 Recent stories include:
 
+* 🏗️ **I Built an Auto Scaling Architecture with Terraform. Then One Tiny Space Broke Everything. 😅**
 * ☁️☸️ **I Put Kubernetes on AWS. Then I Started Deleting Pods. ☸️😈**
 * ☸️ **I Put WordPress and MySQL on Kubernetes. Then MySQL Fought Back. ⚔️**
 * ☸️ **Kubernetes Said Desired State. I Said Prove It.**
